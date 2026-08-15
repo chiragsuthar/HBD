@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, Ashwi</title>
+    <meta
+      name="description"
+      content="A modern interactive birthday surprise for Ashwi"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <div class="bg-glow glow-3"></div>
+
+    <header class="topbar">
+      <div class="brand">Ashwi • Birthday</div>
+      <button class="surprise-btn" id="celebrateBtn">Celebrate</button>
+    </header>
+
+    <main class="container">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">For the girl who makes my world glow</p>
+          <h1>
+            Happy<br />
+            <span>Birthday</span><br />
+            Ashwi
+          </h1>
+          <p class="subtitle">
+            Every day with you feels like a beautiful dream I never want to wake
+            up from.
+          </p>
+
+          <div class="cta-row">
+            <button class="primary" id="revealBtn">Open my surprise</button>
+            <button class="secondary" id="sparkleBtn">Make it magical</button>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Birthday surprise illustration">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="ring ring-1"></div>
+          <div class="ring ring-2"></div>
+          <div class="portrait-card">
+            <div class="portrait-glow"></div>
+            <img
+              class="love-photo"
+              src="PXL_20260626_163950392.NIGHT.jpg"
+              alt="Ashwi and me celebrating together"
+            />
+            <div class="photo-badge">Forever & Always</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="message reveal" id="messageSection">
+        <div class="section-heading">
+          <p class="eyebrow">A letter for you</p>
+          <h2>To the love of my life</h2>
+        </div>
+
+        <div class="letter" id="letterCard">
+          <p>
+            Dear Ashwi,</p>
+          <p>
+            Happy Birthday, my beautiful fiancée. You are the reason my heart feels
+            safe, warm, and endlessly full. Your smile turns ordinary moments into
+            unforgettable memories, and your love makes my world brighter every day.
+          </p>
+          <p>
+            I promise to keep choosing you, loving you, and making you feel like the
+            queen you are. May this new year of your life be filled with laughter,
+            peace, adventure, and all the happiness your heart deserves.
+          </p>
+          <p>
+            You are my favorite person, my forever home, and the greatest blessing
+            in my life. I love you more than words can say.
+          </p>
+          <p class="signature">Forever yours, Your one and only ❤️</p>
+        </div>
+      </section>
+
+      <section class="moments reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Our love story</p>
+          <h2>Favorite little moments</h2>
+        </div>
+
+        <div class="cards">
+          <article class="moment-card">
+            <div class="icon">✨</div>
+            <h3>Your Smile</h3>
+            <p>The most beautiful thing in the universe, and the reason my heart smiles too.</p>
+          </article>
+          <article class="moment-card">
+            <div class="icon">🌙</div>
+            <h3>Late Nights</h3>
+            <p>Every conversation with you feels like a little piece of magic wrapped in comfort.</p>
+          </article>
+          <article class="moment-card">
+            <div class="icon">💍</div>
+            <h3>Forever Us</h3>
+            <p>Dreaming of a lifetime of love, laughter, and beautiful memories with you.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wish reveal">
+        <div class="wish-box">
+          <p class="eyebrow">Birthday wish</p>
+          <h2>May your life bloom with joy</h2>
+          <p>
+            May every dream you hold become real, every wish come true, and every day
+            remind you how deeply loved you are. Keep shining, Ashwi — the world is better
+            because you are in it.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <div class="floating-hearts" aria-hidden="true"></div>
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
